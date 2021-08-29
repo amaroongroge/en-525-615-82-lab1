@@ -91,6 +91,14 @@ TIP: For more information goto: https://docs.github.com/en/github/authenticating
 Follow the instructions provided here:
 https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
+=== Two-Factor Authentication Instead of SSH
+
+If you got the SSH key to work and you are able to use git with Github, then you can skip this section.  If, however, you are like me, maybe you had difficulty.
+If so, you can use two-factor authentication (2FA), which uses a random code generator, like _Microsoft Generator_ or _Google Authenticator_ to generate a 2FA
+code.  From there, you can set up a personal access token for use with `git` on the command line.  Logons to the website may prompt for the random code
+application on your mobile device.  Read about 2FA with Github here:  https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa/about-two-factor-authentication
+
+I have no preference how you log into Github, as long as you can log in, get the Laboratory materials, and keep up your repo.
 
 == Lab Setup
 
@@ -99,8 +107,6 @@ https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-
 Now that you have a GitHub Account you can accept the GitHub Classromm Assignment for this Lab.
 
 The GitHub Classroom Assignment for this Lab can be found here: https://classroom.github.com/a/26Lr3krr
-
-
 
 === Clone the Lab 1 Git Repository
 
