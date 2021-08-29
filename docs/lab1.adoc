@@ -113,35 +113,24 @@ mkdir en525.615
 cd en525.615
 git clone <tbd url>
 ```
-The url for the git repositories will use the following convention:
-
-git@github.com:jhu-en-525-615/`<semester id>`-lab``<#>``-`<username>`.git
-
-Where `<semester id>` is in the form of fa20, sp21, fa21, etc.
-`<#>` is the lab number (e.g. 1,2,3,4,5,6,7,8)
-`<username id>` is your GitHub username.
-
-For Fall 2020, Lab 1 and user gcrum1, the url would be:
-```
-git@github.com:jhu-en-525-615/fa20-lab1-gcrum1.git
-```
+The url for the git repositories can be found in your assignment repo, under the green `Code` button.
 
 Clone the GitHub assignment repo:
 ```
-$ git clone git@github.com:jhu-en-525-615/fa20-lab1-gcrum1.git
-$ cd ./fa20-lab1-crumgary/
+$ git clone git@github.com:Jansing-JHU/laboratory-1-dr-david-jansing.git
+$ cd ./laboratory-1-dr-david-jansing
 ```
 
 The directory layout will look like the following tree:
 ```
 fa20-lab1-crumgary
- ├───doc
+ ├───docs
  └───workspace
 ```
 
 ## Create GitHub Issues
 
-Remember from the syllabus that you thoroughly read.
+Remember from the syllabus that you thoroughly read:
 As part of your development workflow you are required to use GitHub issues.
 You should look over the lab and create an issue for major tasks.
 This is part of your grade and will help us know you have looked over the material early had have prepared for the lab.
