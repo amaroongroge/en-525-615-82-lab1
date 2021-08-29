@@ -42,8 +42,8 @@ Open a terminal (Command Prompt / Git Bash / terminal.app ) and enter the follow
 
 
 ```
-git config --global user.name "Gary Crum"
-git config --global user.email gcrum1@jhu.edu
+git config --global user.name "Your Name Here"
+git config --global user.email your.email.address.here@jhu.edu
 ```
 
 === Generate a new SSH Key
@@ -53,7 +53,7 @@ In the same terminal, generate a SSH key that will be used by GitHub to authenti
 Paste the text below, substituting in your GitHub email address.
 
 ```
-ssh-keygen -t rsa -b 4096 -C "gcrum1@jhu.edu"
+ssh-keygen -t rsa -b 4096 -C "your.email.address.here@jhu.edu"
 ```
 
 You will then be promted for the default name of the key and a password:
@@ -92,14 +92,13 @@ Follow the instructions provided here:
 https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 
 
-
 == Lab Setup
 
 === Accept the GitHub Classroom Asssignment link
 
 Now that you have a GitHub Account you can accept the GitHub Classromm Assignment for this Lab.
 
-The GitHub Classroom Assignment for this Lab can be found here: https://classroom.github.com/a/Obd8fAoR
+The GitHub Classroom Assignment for this Lab can be found here: https://classroom.github.com/a/26Lr3krr
 
 
 
